@@ -1,7 +1,7 @@
 {
   "name": "luvit-test",
   "version": "0.0.1",
-  "description": "The Luvit test runner for Lua, in a modular package",
+  "description": "The Lua test runner from Luvit, in a modular package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
