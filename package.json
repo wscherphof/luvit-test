@@ -1,0 +1,27 @@
+{
+  "name": "luvit-test",
+  "version": "0.0.1",
+  "description": "The Luvit test runner for Lua, in a modular package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wscherphof/luvit-test.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "unittest",
+    "runner",
+    "testrunner",
+    "lua",
+    "luvit"
+  ],
+  "author": "Wouter Scherphof",
+  "license": "LGPL+",
+  "bugs": {
+    "url": "https://github.com/wscherphof/luvit-test/issues"
+  },
+  "homepage": "https://github.com/wscherphof/luvit-test"
+}
