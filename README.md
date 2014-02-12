@@ -3,7 +3,7 @@ The [Lua](http://www.lua.org/) test runner from [Luvit](http://luvit.io/), in a 
 
 ##Install
 - Download and install [Node.js](http://nodejs.org/download/). Then you have `npm`
-- In the root of your Luvit project, `npm install lua-test`
+- In the root of your Luvit project, `npm install luvit-test`
 
 ##Usage
 - In a tests directory, create tests in lua files.
