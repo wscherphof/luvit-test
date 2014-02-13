@@ -138,7 +138,9 @@ remove_recursive = function(dir, done)
   end)
 end
 
-return function (testdir)
+local runner = {}
+
+function runner.run (testdir)
   dirname = testdir or __dirname
   tmp_dir = path.join(dirname, 'tmp')
   remove_recursive(tmp_dir, function ()
@@ -147,3 +149,5 @@ return function (testdir)
     end)
   end)
 end
+
+return runner

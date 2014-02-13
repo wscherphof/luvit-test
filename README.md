@@ -14,7 +14,7 @@ require("luvit-test/helper")
 Then `assert()` things you want to test.
 - Create an `init.lua` file in the tests directory, with just the line
 ```lua
-require("luvit-test/runner")(__dirname)
+require("luvit-test/runner").run(__dirname)
 ```
 - Run the tests with: `luvit init.lua`
 
